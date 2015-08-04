@@ -1,0 +1,5 @@
+@import "_main__small";
+
+@media (min-width:768px) {
+	@import "_main__medium";
+}
