@@ -49,7 +49,7 @@ gulp.task('stylesDist', function() {
 });
 
 // Linting and Stats
-gulp.task('stylesInfo', ['styles'], function() {
+gulp.task('stylesLint', ['styles'], function() {
     return gulp.src('build/*.css')
         .pipe($.postcss([
             require('doiuse')({
